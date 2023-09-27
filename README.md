@@ -1,5 +1,10 @@
 # ROS-Localization-and-Navigation
 
+## Environment
+
+OS: Ubuntu 20.04 LTS
+ROS: 1.0 Noetic LTS
+
 ## Running the Project
 
 After cloning this repo, you can rename the root folder as follows:
