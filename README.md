@@ -2,8 +2,9 @@
 
 ## Environment
 
-OS: Ubuntu 20.04 LTS
-ROS: 1.0 Noetic LTS
+**OS**: Ubuntu 20.04 LTS
+
+**ROS**: 1.0 Noetic LTS
 
 ## Running the Project
 
