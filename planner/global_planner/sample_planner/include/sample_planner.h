@@ -1,16 +1,4 @@
-/***********************************************************
- *
- * @file: sample_planner.h
- * @breif: Contains the sample planner ROS wrapper class
- * @author: Yang Haodong
- * @update: 2022-10-26
- * @version: 1.0
- *
- * Copyright (c) 2023， Yang Haodong
- * All rights reserved.
- * --------------------------------------------------------
- *
- **********************************************************/
+
 #ifndef SAMPLE_PLANNER_H
 #define SAMPLE_PLANNER_H
 

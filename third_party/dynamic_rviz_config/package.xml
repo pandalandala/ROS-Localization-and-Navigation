@@ -3,7 +3,7 @@
   <version>0.0.1</version>
   <description> dynamic_rviz_config package</description>
   <author>Winter</author>
-  <maintainer email="913982779@qq.com">Yang Haodong</maintainer>
+  <maintainer email="zxrshawn@icloud.com">zxr</maintainer>
   <license>BSD</license>
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>

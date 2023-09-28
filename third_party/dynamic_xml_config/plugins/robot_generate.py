@@ -1,17 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-""" 
-******************************************************************************************
-*  Copyright (C) 2023 Yang Haodong, All Rights Reserved                                  *
-*                                                                                        *
-*  @brief    generate launch file dynamicly based on user configure.                     *
-*  @author   Haodong Yang                                                                *
-*  @version  1.0.2                                                                       *
-*  @date     2023.07.19                                                                  *
-*  @license  GNU General Public License (GPL)                                            *
-******************************************************************************************
-"""
+
 import xml.etree.ElementTree as ET
 from .xml_generate import XMLGenerator
 

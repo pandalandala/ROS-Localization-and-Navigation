@@ -1,17 +1,6 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 
-''' 
-******************************************************************************************
-*  Copyright (C) 2023 Yang Haodong, All Rights Reserved                                  *
-*                                                                                        *
-*  @brief    rviz basic pannel configure class.                                          *
-*  @author   Haodong Yang                                                                *
-*  @version  1.0.1                                                                       *
-*  @date     2022.07.06                                                                  *
-*  @license  GNU General Public License (GPL)                                            *
-******************************************************************************************
-'''
 import yaml
 
 class RVizConfig:

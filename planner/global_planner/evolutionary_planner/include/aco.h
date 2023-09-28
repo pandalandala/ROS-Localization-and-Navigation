@@ -1,16 +1,4 @@
-/***********************************************************
- *
- * @file: aco.h
- * @breif: Contains the Ant Colony Optimization(ACO) planner class
- * @author: Yang Haodong
- * @update: 2023-7-16
- * @version: 1.0
- *
- * Copyright (c) 2023， Yang Haodong
- * All rights reserved.
- * --------------------------------------------------------
- *
- **********************************************************/
+
 #ifndef ACO_H
 #define ACO_H
 

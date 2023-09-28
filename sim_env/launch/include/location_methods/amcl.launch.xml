@@ -1,14 +1,4 @@
-<!-- 
-******************************************************************************************
-*  Copyright (c) 2023 Yang Haodong, All Rights Reserved                                  *
-*                                                                                        *
-*  @brief    Amcl method module parameter configure.                                     *
-*  @author   Haodong Yang,                                                               *
-*  @version  1.0.0                                                                       *
-*  @date     2022.06.30                                                                  *
-*  @license  GNU General Public License (GPL)                                            *
-******************************************************************************************
--->
+
 
 <launch>
     <!-- 机器人命名空间 -->

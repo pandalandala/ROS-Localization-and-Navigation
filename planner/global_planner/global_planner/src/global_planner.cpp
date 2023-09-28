@@ -1,16 +1,4 @@
-/***********************************************************
- *
- * @file: global_planner.cpp
- * @breif: Contains some implement of global planner class
- * @author: Yang Haodong
- * @update: 2022-10-24
- * @version: 2.1
- *
- * Copyright (c) 2023， Yang Haodong
- * All rights reserved.
- * --------------------------------------------------------
- *
- **********************************************************/
+
 #include "global_planner.h"
 
 namespace global_planner

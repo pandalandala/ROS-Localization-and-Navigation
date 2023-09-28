@@ -1,16 +1,4 @@
-/***********************************************************
- *
- * @file: informed_rrt.cpp
- * @breif: Contains the informed RRT* planner class
- * @author: Yang Haodong
- * @update: 2023-1-19
- * @version: 1.0
- *
- * Copyright (c) 2023， Yang Haodong
- * All rights reserved.
- * --------------------------------------------------------
- *
- **********************************************************/
+
 #include <cmath>
 #include <random>
 #include "informed_rrt.h"

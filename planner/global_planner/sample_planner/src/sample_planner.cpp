@@ -1,16 +1,4 @@
-/***********************************************************
- *
- * @file: sample_planner.cpp
- * @breif: Contains the sample planner ROS wrapper class
- * @author: Yang Haodong
- * @update: 2022-10-26
- * @version: 1.0
- *
- * Copyright (c) 2023， Yang Haodong
- * All rights reserved.
- * --------------------------------------------------------
- *
- **********************************************************/
+
 #include <pluginlib/class_list_macros.h>
 #include <cmath>
 

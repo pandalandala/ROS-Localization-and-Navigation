@@ -1,16 +1,4 @@
-/***********************************************************
- *
- * @file: global_planner.h
- * @breif: Contains the abstract global planner class
- * @author: Yang Haodong
- * @update: 2022-10-24
- * @version: 2.1
- *
- * Copyright (c) 2023， Yang Haodong
- * All rights reserved.
- * --------------------------------------------------------
- *
- **********************************************************/
+
 #ifndef GLOBAL_PLANNER_H
 #define GLOBAL_PLANNER_H
 

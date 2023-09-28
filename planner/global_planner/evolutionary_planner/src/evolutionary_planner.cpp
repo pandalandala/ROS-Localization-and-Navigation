@@ -1,16 +1,4 @@
-/***********************************************************
- *
- * @file: evolutionary_planner.cpp
- * @breif: Contains the evolutionary planner ROS wrapper class
- * @author: Yang Haodong
- * @update: 2023-7-16
- * @version: 1.0
- *
- * Copyright (c) 2023， Yang Haodong
- * All rights reserved.
- * --------------------------------------------------------
- *
- **********************************************************/
+
 #include "evolutionary_planner.h"
 #include <pluginlib/class_list_macros.h>
 

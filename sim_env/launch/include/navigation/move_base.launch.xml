@@ -1,14 +1,3 @@
-<!-- 
-******************************************************************************************
-*  Copyright (c) 2023 Yang Haodong, All Rights Reserved                                  *
-*                                                                                        *
-*  @brief    move base module parameter configure.                                       *
-*  @author   Haodong Yang,                                                               *
-*  @version  1.0.0                                                                       *
-*  @date     2022.06.30                                                                  *
-*  @license  GNU General Public License (GPL)                                            *
-******************************************************************************************
--->
 
 <launch>
     <!-- robot's namespace -->

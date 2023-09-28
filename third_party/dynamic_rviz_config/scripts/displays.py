@@ -1,18 +1,6 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 
-''' 
-******************************************************************************************
-*  Copyright (C) 2023 Yang Haodong, All Rights Reserved                                  *
-*                                                                                        *
-*  @brief    rviz display pannel configure class.                                        *
-*  @author   Haodong Yang                                                                *
-*  @version  1.0.1                                                                       *
-*  @date     2022.07.06                                                                  *
-*  @license  GNU General Public License (GPL)                                            *
-******************************************************************************************
-'''
-
 class Displays(list):
     def __init__(self):
         None
