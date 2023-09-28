@@ -25,7 +25,7 @@ $ catkin_make
 $ cd ./src/sim_env/scripts/
 $ sudo ./main.sh
 ```
-**Note**: if you meet some errors that are hard to solve, try running commands of `main.sh` step by step in terminal.
+  **Note**: If you meet some errors that are hard to solve when you run `sudo ./main.sh`, try running commands of `main.sh` step by step in terminal.
 
 5. Use **2D Nav Goal** to select the goal. Succeed!
 
