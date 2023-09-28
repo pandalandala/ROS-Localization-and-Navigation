@@ -1,41 +1,64 @@
 # ROS-Localization-and-Navigation
 
-## Environment
+## 1. Environment and Start
 
-**OS**: Ubuntu 20.04 LTS
+1. **OS**: Ubuntu 20.04 LTS
 
-**ROS**: 1.0 Noetic LTS
+2. **ROS**: 1.0 Noetic LTS (Desktop-Full suggested)
 
-## Running the Project
-
-After cloning this repo, you can rename the root folder as follows:
+3. Dependencies Installation:
 
 ``` bash
-├─catkin_ws
-│  ├─build
-│  ├─devel
-│  └─src
+$ sudo apt install python-is-python3
+$ sudo apt install ros-noetic-amcl
+$ sudo apt install ros-noetic-base-local-planner
+$ sudo apt install ros-noetic-map-server
+$ sudo apt install ros-noetic-move-base
+$ sudo apt install ros-noetic-navfn
 ```
 
-After completing the project, you can launch it by running the following commands first -
+4. Compile the project and Run (rename the root folder as `ros_motion_planning` first)
 
 ``` bash
-$ cd ~/catkin_ws
+$ cd ros_motion_planning/
 $ catkin_make
+$ cd ./src/sim_env/scripts/
+$ sudo ./main.sh
 ```
 
-Then run the following commands before running `$ source ~catkin_ws/devel/setup.bash` first in **separate** terminals:
+5. Use **2D Nav Goal** to select the goal. Succeed!
+
+## 2. File Tree
 
 ``` bash
-$ roslaunch udacity_bot udacity_world.launch
-$ roslaunch udacity_bot amcl.launch
+ros_motion_planner
+└── src
+    ├── planner
+    │   ├── global_planner
+    │   ├── local_planner
+    │   └── utils
+    ├── sim_env             # simulation environment
+    │   ├── config
+    │   ├── launch
+    │   ├── maps
+    │   ├── meshes
+    │   ├── models
+    │   ├── rviz
+    │   ├── scripts
+    │   ├── urdf
+    │   └── worlds
+    ├── third_party
+    │   ├── dynamic_rviz_config
+    │   ├── dynamic_xml_config
+    │   ├── gazebo_plugins
+    │   └── rviz_plugins
+    └── user_config         # user configuration file
 ```
 
-If you want to send a goal to navigate the robot, run folowing commands:
+## 3. Dynamic Configuration
 
-``` bash
-$ source ~catkin_ws/devel/setup.bash
-$ rosrun udacity_bot navigation_goal.cpp
-```
+Change configs through modifing the `./src/user_config/user_config.yaml`. For example, you can change the global_planner and local_planner as you want.
 
-Then you will see the robot reaching the navigational goal.
+## 4. Application on a Real Robot
+
+to be conducted.
