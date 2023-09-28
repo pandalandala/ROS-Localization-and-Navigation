@@ -1,0 +1,8 @@
+prefix=/home/zxr/catkin_ws/devel
+
+Name: dstar_global_planner
+Description: Description of dstar_global_planner
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib -ldstar_global_planner
+Requires: geometry_msgs nav_core nav_msgs roscpp rospy std_msgs tf2 costmap_2d pluginlib

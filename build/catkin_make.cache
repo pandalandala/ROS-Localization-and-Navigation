@@ -1,2 +1,2 @@
-udacity_bot
+dstar_global_planner:udacity_bot
 -DCATKIN_DEVEL_PREFIX=/home/zxr/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zxr/catkin_ws/install -G Unix Makefiles
