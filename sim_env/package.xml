@@ -5,7 +5,7 @@
     ROS motion planning simulation environment.
   </description>
   <author>Winter</author>
-  <maintainer email="913982779@qq.com">Winter</maintainer>
+  <maintainer email="zxrshawn@gmail.com">Winter</maintainer>
   <license>BSD</license>
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>

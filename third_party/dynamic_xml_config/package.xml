@@ -6,11 +6,11 @@
     dynamic xml configure
   </description>
 
-  <maintainer email="913982779@qq.com">Winter</maintainer>
+  <maintainer email="zxrshawn@gmail.com">Winter</maintainer>
 
   <license>BSD</license>
 
-  <author email="913982779@qq.com">Winter</author>
+  <author email="zxrshawn@gmail.com">Winter</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
