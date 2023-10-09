@@ -8,26 +8,29 @@
 
 3. Dependencies Installation:
 
-``` bash
-$ sudo apt install python-is-python3
-$ sudo apt install ros-noetic-amcl
-$ sudo apt install ros-noetic-base-local-planner
-$ sudo apt install ros-noetic-map-server
-$ sudo apt install ros-noetic-move-base
-$ sudo apt install ros-noetic-navfn
-```
+   **Note**: Make sure you are installing ROS and its dependencies with the appropriate versions when you type following commands, which now actually fits ROS Noetic only.)
+
+   ``` bash
+   $ sudo apt install python-is-python3
+   $ sudo apt install ros-noetic-amcl
+   $ sudo apt install ros-noetic-base-local-planner
+   $ sudo apt install ros-noetic-map-server
+   $ sudo apt install ros-noetic-move-base
+   $ sudo apt install ros-noetic-navfn
+   ```
 
 4. Compile the project and Run (rename the root folder as `ros_motion_planning` first)
 
-``` bash
-$ cd ros_motion_planning/
-$ catkin_make
-$ cd ./src/sim_env/scripts/
-$ sudo ./main.sh
-```
-  **Note**: If you meet some errors that are hard to solve when you run `sudo ./main.sh`, try running commands of `main.sh` step by step in terminal.
+   **Note**: If you meet some errors that are hard to solve when you run `sudo ./main.sh`, try running commands of `main.sh` step by step in your terminal.
+   
+   ``` bash
+   $ cd ros_motion_planning/
+   $ catkin_make
+   $ cd ./src/sim_env/scripts/
+   $ sudo ./main.sh
+   ```
 
-5. Use **2D Nav Goal** to select the goal. Succeed!
+6. Use **2D Nav Goal** to select the goal. Succeed!
 
 ## 2. File Tree
 
