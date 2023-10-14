@@ -4,10 +4,12 @@ rviz_file: "sim_env.rviz"
 
 robots_config:
   - robot1_type: "turtlebot3_waffle"
-    robot1_global_planner: "theta_star"
-    # a_star(containing Dijkstra and GBFS) d_star_lite d_star graph_planner jump_point_search lazy_theta_star lpa_star theta_star voronoi informed_rrt rrt_connect rrt_star rrt sample_planner
+    robot1_global_planner: "rrt"
+    # Graph Planner Options: a_star, jps, gbfs, dijkstra, d_star, lpa_star, d_star_lite, theta_star, lazy_theta_star, voronoi
+    # Sample Planner Options: rrt, rrt_star, informed_rrt, rrt_connect
+    # Intelligent Planner Options: aco
     robot1_local_planner: "dwa"
-    # pid dwa
+    # pid dwa static apf
     robot1_x_pos: "0.0"
     robot1_y_pos: "0.0"
     robot1_z_pos: "0.0"
