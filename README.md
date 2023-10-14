@@ -56,8 +56,10 @@
    ```bash
    to be conducted ...
    ```
-
-<img src="D:\Desktop\ROS-Localization-and-Navigation\assets\rrt.gif" alt="rrt" style="zoom:67%;" />
+   
+<p align="center">
+<img src="https://github.com/pandalandala/ROS-Localization-and-Navigation/blob/main/assets/rrt.gif" alt="rrt" height="400" width="400"/>
+</p>
 
 ## 2. File Tree
 
