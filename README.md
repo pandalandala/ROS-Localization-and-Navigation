@@ -1,10 +1,17 @@
 # ROS-Localization-and-Navigation
 
+## 0. Introduction
+
+This repository provides some main algorithms of path planning and implements those algorithms on ROS platform using AMCL localization. A path planning algorithm is composed of two parts:
+* **Global Path Planner**: Based on algorithms of the glabal path planner, the robot searches an optimal path to travel from departure to destination with no conflicts.
+
+* **Local Path Planner**: Based on the results of the global path planner, the local path planner divides the path into segments and finds the best travel path on each segment.
+
 ## 1. Environment and Start
 
-1. **OS**: Ubuntu 20.04 LTS
+1. **OS**:  <img width="100px" height="20px" src="https://img.shields.io/badge/Ubuntu-20.04-orange?logo=Ubuntu&Ubuntu-20.04" alt="ubuntu" />
 
-2. **ROS**: 1.0 Noetic LTS (Desktop-Full suggested)
+2. **ROS**: <img width="100px" height="20px" src="https://img.shields.io/badge/ROS-noetic-blue?logo=ROS&ROS=noetic" alt="ROS" /> (Desktop-Full suggested)
 
 3. Dependencies Installation:
 
