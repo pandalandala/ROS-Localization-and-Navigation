@@ -229,7 +229,7 @@ The source code is released under [GPLv3](https://www.gnu.org/licenses/) license
 
 Feel free to contact us if you have any question.
 
-### 一些注意事项：
+<!-- ### 一些注意事项：-->
 
-1. 在`user_config.yaml`中，global_planner可以使用voronoi，但在使用前需要先将下方的map_layers的注释取消（未被完全测试）。
-2. ACO算法未被完全测试。
+<!-- 1. 在`user_config.yaml`中，global_planner可以使用voronoi，但在使用前需要先将下方的map_layers的注释取消（未被完全测试）。-->
+<!-- 2. ACO算法未被完全测试。-->
